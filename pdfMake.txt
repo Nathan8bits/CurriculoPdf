@@ -1,0 +1,19 @@
+const docDefinition = {
+  content: [
+    { text: 'Relatório Diário', style: 'header' },
+    { text: 'Tarefas Concluídas', style: 'subheader' },
+    {
+      ul: [
+        'Terminar protótipo',
+        'Revisar texto do cliente',
+        'Enviar e-mail de confirmação'
+      ]
+    },
+    { text: '\nObservações gerais:', style: 'subheader' },
+    { text: 'O projeto está dentro do prazo, com boa aceitação da equipe.', fontSize: 12 }
+  ],
+  styles: {
+    header: { fontSize: 22, bold: true, alignment: 'center', margin: [0, 0, 0, 15] },
+    subheader: { fontSize: 16, bold: true, color: '#003366', margin: [0, 15, 0, 8] }
+  }
+};

@@ -94,11 +94,6 @@ function addEscolaridade() {
             ],
             margin: [0, 2, 0, 10] // margem em volta da linha (topo, dir, baixo, esq)
         },
-        
-          /*...habilidades.map(h => ({
-            text: h, 
-            margin: [0, 2, 0, 0]
-          }))*/
          {
           ul: habilidades,
           margin: [20, 0, 0, 0]
@@ -127,4 +122,3 @@ function addEscolaridade() {
   
     pdfMake.createPdf(docDefinition).download(`curriculo_${nome.replace(/\s+/g, '_')}.pdf`);
   }
-  

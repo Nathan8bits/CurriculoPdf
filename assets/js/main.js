@@ -65,7 +65,8 @@ function addEscolaridade() {
         { text: `Endereço: ${endereco}` },
         { text: `Telefone: ${telefone}` },
         { text: `Email: ${email}` },
-        { text: `Redes Sociais: ${redes}` },
+        { text: `Redes Sociais:` },
+        {text: redes},
         //{ text: 'Descrição', margin: [0, 10, 0, 0], bold: true },
         { text: descricao, margin: [0, 15, 0, 10] },
   
